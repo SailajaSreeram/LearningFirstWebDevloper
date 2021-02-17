@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+.menu1 {
+    background-color: grey;
+  border: 1px solid black;
+  width: 28%;
+}
+.menu2 {
+  background-color: grey;
+  border: 1px solid black;
+  width: 28%;
+}
+.menu3 {
+    background-color: grey;
+  border: 1px solid black;
+  width: 28%;
+}
+p {
+    width: 94%;
+    padding-left: 2%;
+}
+
+.dish {
+    text-align: right;
+    font-weight: bold;
+}
+
+span {
+   border-left: 2px black solid;
+   border-bottom: 2px black solid;
+   padding: 0px 20px 0px 20px;
+}
+.menu1 span {
+    background-color: pink;
+}
+.menu2 span {
+    background-color: brown;
+    color: white;
+}
+.menu3 span {
+    background-color: yellow;
+}
+/* desktop view (992px and above) */
+@media (min-width: 992px) {
+    
+    .menu1 {
+        margin-left: 1%;
+        margin-right: 1%;
+        float: left;
+        width: 31.33%;
+    }
+
+    #p1{
+        width: 92%;
+    }
+    .menu2 {
+        margin-left: 1%;
+        margin-right: 1%;
+        float: left;
+        width: 31.33%;
+    }
+    .menu3 {
+        margin-left: 1%;
+        margin-right: 1%;
+        float: left;
+        width: 31.33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu1 {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        float: left;
+        width: 46%;
+    }
+
+    .menu2 {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        float: left;
+        width: 46%;
+    }
+
+    .menu3{
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+        clear:both
+    }
+}
+@media (max-width: 767px) {
+    .menu1 {
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 4%;
+        width: 94%;
+    }
+    #p1{
+        width: 92%;
+    }
+    .menu2 {
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 4%;
+        width: 94%;
+    }
+    .menu3 {
+        margin-left: 4%;
+        margin-right: 4%;
+        width: 94%;
+    }
+}
