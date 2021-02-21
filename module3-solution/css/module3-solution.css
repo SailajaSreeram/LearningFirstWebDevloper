@@ -1,0 +1,61 @@
+section div.text-center, p  {
+    background-color: grey;
+}
+#Chicken > div  {
+    background-color: grey;
+}
+section div.text-center  {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.navbar {
+    background-color: grey;
+    border-radius: 0px;
+    border: 2px black solid;
+}
+.navbar-default .navbar-brand {
+    font-size: 45px;
+    color:black;
+}
+
+ul {
+    background-color: white;
+}
+
+.icon-bar {
+    border: 1px solid;
+}
+
+#nav-list div {
+    border: 1px black solid;
+}
+
+.endSection {
+    display: block;
+    
+}
+h3{
+    display: inline-block;
+    font-weight: bold;
+}
+#nav-list a {
+    text-decoration: none;
+    color: black;
+}
+.endSection a {
+    font-weight: bold;
+    color: blue;
+    text-decoration-line: underline;
+}
+@media (min-width:500px) and (max-width: 767px) {
+    
+    #collapsable-nav{
+        margin-left: -3%;
+        margin-right: -3%;
+    }
+}
